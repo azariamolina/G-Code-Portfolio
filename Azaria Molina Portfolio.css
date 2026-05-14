@@ -1,0 +1,159 @@
+/* Web Fonts */
+@fontface {
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Text Styles */
+body {
+    font: 300 100%/1.5 'Quicksand', sans-serif;
+    background-image: radial-gradient(circle at top left, #474DA3, #7661A4, #A974AC, #D688B8, #ECA3B4, #F6B8AB);
+    color: white;
+}
+p, span {
+    font: 450 100%/1.5 'Quicksand', sans-serif;
+}
+a:visited {
+    color: black;
+}
+
+/* Main Menu */
+.menu {
+    color: white;
+    text-decoration: none;
+    font: 450 100%/1.5 'Quicksand', sans-serif;
+}
+
+/* Name & Title */
+.intro {
+    float: right;
+}
+.intro h2, .intro h4, .intro h5 {
+    margin: 0;
+    line-height: 27px;
+    }
+
+/* Secondary Menu */
+#icon {
+    color: white;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    align-items: flext-start;
+    gap: 50px;
+}
+.about-image {
+    width: 400px; 
+    height: 500px;
+}
+.about {
+    max-width: 650px;
+    text-align: left;
+}
+
+/* Software & Skills */
+#ss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sstitle {
+    text-align: center;
+}
+.software {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: calc(60% - 10px);
+    margin-bottom: 30px;
+}
+.software span {
+    background: #e6f0ff;
+    color: #1a4ed8;
+    padding: 6px 12px;
+    border-radius: 50px;
+    }
+.skills {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 10px;
+    width: calc(60% - 10px);
+    margin-bottom: 50px;
+}
+.skills span {
+    background: #e6f0ff;
+    color: #1a4ed8;
+    padding: 6px 12px;
+    border-radius: 50px;
+}
+
+/* Portfolio */
+.portfolio-title {
+    padding: 30px;
+}
+.portfolio-title h4, .portfolio-title h2, .portfolio-title p {
+    margin: 0;
+}
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.portfolio-card {
+    background: #e6f0ff;
+    color: #1a4ed8;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 25px;
+    margin: 15px 25px ;
+    width: 400px;
+}
+.portfolio-card img {
+    display: block; 
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+}
+.gitlink {
+    padding: 30px;
+}
+.portlinks {
+    background: #e6f0ff;
+    color: #1a4ed8;
+    padding: 6px 12px;
+    border-radius: 50px;
+    text-decoration: none;
+    font: 450 100%/1.5 'Quicksand', sans-serif;
+}
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+.contact h4, .contact p {
+    margin: 0;
+}
+
+/* Form */
+label, button {
+    display: block;
+    margin: 10px 0 2px;
+}
+button {
+    background: #e6f0ff;
+    color: #1a4ed8;
+    padding: 6px 12px;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+    font: 450 100%/1.5 'Quicksand', sans-serif;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+}
+
+/* Media Queries */
