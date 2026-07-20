@@ -20,92 +20,11 @@ a:visited {
     color: black;
 }
 
-/* Main Menu */
-.menu {
-    color: white;
-    text-decoration: none;
-    font: 450 100%/1.5 'M Plus 1', sans-serif;
-}
-
-#home {
-    position: relative;
-    height: 500px; /* adjust as needed */
-}
-
-/* Top-left text */
-.menu1 {
-    position: absolute;
-    top: 80px;
-    left: 80px;
-
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.menu1 a {
-    text-decoration: none;
-    color: white;
-    font: 450 100%/1.5 'M Plus 1', sans-serif;
-    font-weight: 600;
-    font-size: 25px
-}
-
-/* Vinyl */
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-
-.vinyl {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.vinyl img {
-    width: 740px; /* adjust size */
-    height: auto;
-    display: block;
-    animation: spin 12s linear infinite;
-}
-
-/* Name & Title */
-.intro {
-    position: absolute;
-    top: 625px;
-    right: 90px;
-
-    text-align: right;
-}
-
-.intro h2,
-.intro h4,
-.intro h5 {
-    margin: 0;
-    line-height: 1.6;
-}
-
-.intro img {
-    width: 150px;
-    height: 150px;
-    border-radius: 10%;
-    object-fit: cover;
-    margin-bottom: 15px;
-}
-
 
 /* About Section */
 
 .about-section {
     padding: 30px;
-    margin-top: 420px;
 }
 
 .about h4,
